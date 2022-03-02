@@ -1,0 +1,115 @@
+body{
+
+	background: url(bg.gif) no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	font-family: 'Kumbh Sans', sans-serif;
+	color: white;
+}
+
+#main p{
+	width: 300px;
+}
+#main{
+	width: 15em;
+	text-align: center;
+	height: 70vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	color: white;
+	font-size: 72px;
+	margin-bottom: 30px;
+}
+
+h4{
+	font-size: 25px;
+	color: rgba(0,0,0,.8);
+}
+
+#main .btn{
+
+	margin-top: 15px;
+	background-color: #EABE7C;
+	border: #e8b66b;
+	
+}
+
+#main .btn:hover,#main .btn:active,#main .btn:focus {
+  background: #ebb76a;
+}
+
+form{
+	display: inline-block;
+}
+
+input[type=text]{
+  padding: 5px 10px;
+  margin: 4px 0px;
+  border: none;
+  background-color:rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+}
+
+  /* Navbar style */
+
+.navbar{
+    margin-bottom:0;
+    background-color: transparent;
+}
+
+
+#card {
+	color: rgba(0,0,0,.6);
+	background-color: rgba(255,255,255,.3);
+	box-shadow: 0 8px 40px rgba(0, 0, 0, .3);
+	border-radius: 5px;
+}
+
+#card a{
+	color: #00316e;
+}
+
+#card a:hover{
+	opacity: .5;
+	text-decoration: none;
+}
+
+.list-group-item{
+	background-color: rgba(255,255,255,.7);
+}
+.list-group-item a{
+	color: black;
+}
+
+.row{
+	display: flex;
+}
+
+
+.icons{
+	text-align: left;
+	margin: auto;
+	padding-top: 0;
+	margin-top: 10px;
+}
+
+.icons img{
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-bottom: 7px;
+}
+@media only screen and (max-width: 600px) {
+	.icons{
+		margin-top: 15px;
+	}
+	.card{
+		margin-bottom: 10px;
+	}
+}
